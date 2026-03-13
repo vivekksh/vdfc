@@ -71,9 +71,9 @@ export default function RetirementChart({
             />
 
             <Tooltip
-              formatter={(value: number) =>
-                `₹${value.toLocaleString()}`
-              }
+              formatter={(value) =>
+  `₹${Number(value).toLocaleString()}`
+}
               labelFormatter={(label) => `Age: ${label}`}
             />
 
