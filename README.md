@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HDFC Retirement Planning Simulator
 
-## Getting Started
+An interactive financial planning tool that helps investors understand their retirement readiness by simulating investment growth, inflation impact, and retirement corpus requirements.
 
-First, run the development server:
+This project was built as part of the **FinCal Innovation Hackathon** sponsored by **HDFC Mutual Fund**, with the goal of creating intuitive and educational financial calculators for investors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Most retirement calculators only show a future value based on a fixed SIP.  
+This simulator goes further by helping users understand:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Whether they are financially prepared for retirement
+- How inflation affects their future lifestyle costs
+- The gap between expected wealth and required retirement corpus
+- How much they need to invest monthly to close that gap
+- How market scenarios affect their long-term wealth
 
-## Learn More
+The tool focuses on **investor education and awareness**, helping users make informed financial planning decisions.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Retirement Corpus Calculation
+Calculates the required retirement corpus based on:
 
-## Deploy on Vercel
+- Current monthly expenses
+- Inflation rate
+- Retirement age
+- Life expectancy
+- Post-retirement return assumptions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Wealth Growth Projection
+Visualizes how investments grow over time using SIP compounding.
+
+Interactive chart shows wealth accumulation from current age until retirement.
+
+---
+
+### Retirement Readiness Score
+Generates a readiness score (0–100) based on:
+
+- Required corpus
+- Expected corpus from current savings and SIP
+
+This gives users an immediate indication of their retirement preparedness.
+
+---
+
+### Retirement Gap Analysis
+Identifies the gap between:
