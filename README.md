@@ -1,4 +1,4 @@
-# HDFC Retirement Planning Simulator
+# VDFC Retirement Planning Simulator
 
 An interactive financial planning tool that helps investors understand their retirement readiness by simulating investment growth, inflation impact, and retirement corpus requirements.
 
